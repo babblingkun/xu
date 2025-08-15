@@ -1,0 +1,104 @@
+
+body {
+    background-color: #FFF0F5;
+    background-image: url('https://www.transparenttextures.com/patterns/subtle-stripes.png');
+    color: #5c5c5c;
+    font-family: "MS Pゴシック", "MS PGothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 4px dotted #FFB6C1;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+header {
+    background-color: #FFC0CB;
+    border: 2px solid #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px #E75480;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #FF69B4;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #C71585;
+    text-decoration: underline;
+}
+
+.section {
+    background-color: #FFF5F7;
+    border: 2px dashed #FFDDE1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.section h2 {
+    font-size: 22px;
+    color: #FF1493;
+    border-bottom: 2px dotted #FF1493;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile-table th, .profile-table td {
+    border: 1px solid #FFC0CB;
+    padding: 8px;
+}
+
+.profile-table th {
+    background-color: #FFDDE1;
+    text-align: right;
+    width: 30%;
+}
+
+a {
+    color: #DB7093;
+}
+a:hover {
+    color: #FF69B4;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #FFB6C1;
+}
+
+.icon {
+    vertical-align: middle;
+    margin-right: 5px;
+}
