@@ -1,4 +1,4 @@
-
+/* --- 全体のスタイル --- */
 body {
     background-color: #FFF0F5;
     background-image: url('https://www.transparenttextures.com/patterns/subtle-stripes.png');
@@ -101,4 +101,51 @@ footer {
 .icon {
     vertical-align: middle;
     margin-right: 5px;
+}
+
+.hobby-image {
+    max-width: 100%; /* コンテナの幅に合わせて自動で縮小 */
+    height: auto; /* 画像の縦横比を維持 */
+    display: block; /* 画像をブロック要素にして中央揃えしやすくする */
+    margin: 15px auto; /* 上下に余白をつけ、左右は中央揃え */
+    border: 3px solid #FFDDE1; /* 淡いピンクの枠線 */
+    border-radius: 5px; /* 角を少し丸くする */
+}
+
+.blog-entry {
+    background-color: #ffffff;
+    border: 1px solid #FFDDE1;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.blog-title {
+    font-size: 20px;
+    color: #E75480;
+    margin-top: 0;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 8px;
+}
+
+.blog-date {
+    font-size: 14px;
+    color: #aaaaaa;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.blog-content p {
+    margin-top: 0;
+    line-height: 1.9;
+}
+
+.blog-image {
+    max-width: 100%; /* コンテナの幅に合わせて自動で縮小 */
+    height: auto; /* 画像の縦横比を維持 */
+    display: block; /* 画像をブロック要素にして中央揃えしやすくする */
+    margin: 15px auto; /* 上下に余白をつけ、左右は中央揃え */
+    border: 3px solid #FFDDE1; /* 淡いピンクの枠線 */
+    border-radius: 5px; /* 角を少し丸くする */
 }
