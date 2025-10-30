@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>しゅーちゃんのポータルサイト</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <header>
+        <h1 data-i18n="header_title">私、徐军ことしゅー君</h1>
+        
+        <div class="language-selector">
+            <label for="lang-select" data-i18n="language_label">Language:</label>
+            <select id="lang-select" onchange="changeLanguage(this.value)">
+                <option value="ja" selected>日本語</option>
+                <option value="zh">中文</option>
+            </select>
+        </div>
+    </header>
+    <main class="gallery">
+        <figure class="gallery-item">
+            <img src="IMG_4926.jpg" alt="はずくてしぬ">
+            <figcaption data-i18n="caption_1">ぼくのちんちん</figcaption>
+        </figure>
+        <figure class="gallery-item">
+            <img src="tintin.jpg" alt="俺です...">
+            <figcaption data-i18n="caption_2">何してるんだろうね</figcaption>
+        </figure>
+        <figure class="gallery-item">
+            <img src="IMG_5391.jpg" alt="Twitter風">
+            <figcaption data-i18n="caption_3">Twitter風</figcaption>
+        </figure>
+        <figure class="gallery-item">
+            <img src="IMG_5457.jpg" alt="しゅーちゃん１">
+            <figcaption data-i18n="caption_4">しゅー少年 in はま寿司</figcaption>
+        </figure>
+        <figure class="gallery-item">
+            <img src="IMG_4627.jpg" alt="しゅーちゃん2">
+            <figcaption data-i18n="caption_5">痩せたい</figcaption>
+        <!--<figure class="gallery-item">
+            <img src="ad.jpg" alt="小米米兔1">
+            <figcaption>5月15日公開！！</figcaption>
+        </figure>--> 
+         </main>
+    <footer>
+        <small id="footer-ja" data-i18n="footer_note_ja">【無断転載・保存厳禁】当サイト内のすべてのコンテンツ（文章・画像等）の著作権は当サイト運営者に帰属します。無許可での転載、複製、ダウンロード、保存、改変等の行為は、法律により罰せられます。</small><br>
+        <small id="footer-zh" data-i18n="footer_note_zh">【严禁转载和保存】 本网站内的所有内容（文字、图片等）的版权归本网站运营者所有。未经许可，禁止进行转载、复制、下载、保存、修改等行为。任何未经授权的行为将依法追究法律责任。</small><br>
+        <small data-i18n="footer_copyright">&copy; 2025 しゅーさんのポータルサイト KAKAO ID syuaa8<br>基IDP备12052008号 彩虹网帅备20081205号 运营者：司马徐军</small>
+    </footer>
+</body>
+</html>
